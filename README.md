@@ -16,25 +16,25 @@ Dependencies
 
 Usage
 
-    Clone this repository:
+Clone this repository:
 
-bash
 
-git clone https://github.com/your-github-username/your-repo-name.git
 
-    Install the required packages:
+    git clone https://github.com/your-github-username/your-repo-name.git
 
-pip install -r requirements.txt
+Install the required packages:
 
-    Update the GOOGLE_SHEET and HEMNET variables with your own Google Sheets form URL and Zillow search URL, respectively.
+    pip install -r requirements.txt
 
-    Run the script:
+Update the GOOGLE_SHEET and HEMNET variables with your own Google Sheets form URL and Zillow search URL, respectively.
 
-python zillow_scraper.py
+Run the script:
+
+    python zillow_scraper.py
 
 This will launch a Firefox browser window, scrape the rental property data from Zillow, and submit the data to the Google Sheets form.
 Notes
 
-    Ensure that you have the Firefox WebDriver (geckodriver) installed and added to your system's PATH.
-    The script might need to be adjusted depending on the structure of your Google Sheets form.
-    The User-Agent header might need to be updated to avoid potential request blocks from Zillow.
+Ensure that you have the Firefox WebDriver (geckodriver) installed and added to your system's PATH.
+The script might need to be adjusted depending on the structure of your Google Sheets form.
+The User-Agent header might need to be updated to avoid potential request blocks from Zillow.
